@@ -32,7 +32,7 @@ void main(){
   indmin++;
   for(int g = indmin; g < indmax; ++g){
     srsum += double.parse(nums[g]);
-    srsum = srsum / (indmax - indmin);
   }
+  srsum = srsum / (indmax - indmin);
   print(srsum);
 }
