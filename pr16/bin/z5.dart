@@ -1,5 +1,5 @@
 import 'dart:io';
-
+// НЕ СДЕЛАНО
 void main(){
   List<List<int>> nums = List.generate(4, (i) => List.generate(5, ((j) => j % 2 == 0 ? 1 : 0)), growable: true);
   for(int i = 0; i < nums.length; ++i){
