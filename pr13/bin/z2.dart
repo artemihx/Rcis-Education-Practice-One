@@ -3,7 +3,7 @@ import 'dart:async';
 import 'dart:io';
 
 void main() {
-  var text =  File('Z:/pr13/files/file.txt');
+  var text =  File('files/nums.txt');
   var textcontent = text.readAsStringSync();
   List<String> nums = textcontent.split(" ");
   print(nums);

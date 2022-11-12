@@ -2,7 +2,7 @@
 import 'dart:io';
 
 void main(){
-  var fileNums = File("res/height.txt");
+  var fileNums = File("files/height.txt");
   var contentFile = fileNums.readAsStringSync();
   List<String> nums = contentFile.split(" ");
   print(nums);
